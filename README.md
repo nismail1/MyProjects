@@ -15,3 +15,8 @@ in the Ghosts class.
 
 Sketchy -
 
+My game Sketchy has a Sketchy class, Command classes and Layer bean class that handled game logic and undo/redo
+that helped raise and lower shapes. I chose to use interfaces because each class implemented methods 
+differently and so it allowed me to code abstractly. I used undo and redo stack because it was easy to keep
+track of commands when there is a simple pop and push between data structures. The way that my lines are colored in is a little odd because color is selected after the line has been drawn.
+
